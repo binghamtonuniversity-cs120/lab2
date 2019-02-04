@@ -15,35 +15,29 @@ Although this is an individual lab assignment, it is permissible to consult with
 
 _In this lab, you will learn to:_
 
-* Work with a C program
-* Print the binary representation of a number
+* Work with a basic C program
+* Use conditional a looping statements in C
 
 
-## Part A: Counting Bits
+## Part A: Printing Stars
 
+Write a program in C to make a 4 level pyramid with asterisks. Your output should look like:
+```shell
+   *
+  * *
+ * * *
+* * * *
+```
 
-In Part A you are going to examine binary.
+## Part B: Printing values
 
-First you will write a function that counts the number of 1’s in the binary representation of an integer passed as a parameter to a function called countOnes(). You should return the number of 1s in the function’s parameter as an unsigned int.
-
-## Part B: Printing Bits
-
-Next you will write a looping binary interpreter that prints the binary representation of a decimal value.
-
-Write a function that uses bit shifting to store the binary representation of an integer in an array passed as a parameter. You will be given the size of the array and should make sure you fill out all elements in the array.
-
-To generate the array of values, you will need to use a bit mask and bitwise right shift.
-* For example, 8 would store the following value in your array
-    * 0000 0000 0000 0000 0000 0000 0000 1000
-* You should call your function with the following test values:
-    * 2
-    * 255
-    * -1
-    * INT_MAX
-    * INT_MIN
-        * The driver code includes the library <limits.h> at the top of the main source code file so you can use the global constant INT_MAX and INT_MIN
-   * You can use the following website to check your results: http://www.binaryhexconverter.com/binary-to-decimal-converter
-
+Alter your program to make the pattern like a pyramid with a number that represents the level repeating in the appropriate row. For example:
+```shell
+   1
+  2 2
+ 3 3 3
+4 4 4 4
+```
 ## Part C: Submission
 
 Ask your TA to demo. The TA will ask you to show your answers, and may ask you to explain how you got an answer. After the TA marks you as having completed the lab, you may leave.
