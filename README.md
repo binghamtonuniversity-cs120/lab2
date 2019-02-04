@@ -33,9 +33,9 @@ int main{
     printf("Hello World!");
 }
 ```
-Go ahead an add the above code to your text file, then save it. Keep track of where the file was saved so you can navigate to it in the command line.
+Go ahead and add the above code to your text file, then save it. Keep track of where the file was saved so you can navigate to its location on the command line.
 
-For the above program, you should compile with `gcc` on the command line. As a reminder of the commands:
+For the above program, you should compile with `gcc`. If you are in the same folder as your file, you can use the command:
 ```shell
 gcc lab2.c -o lab2
 ```
@@ -50,7 +50,7 @@ Now alter your program to make a 4 level pyramid with asterisks. Your output sho
  * * *
 * * * *
 ```
-Once you have everything printing out properly, move on to Part B. 
+Once you have everything printing out properly, move on to Part B.
 
 ## Part B: Printing values
 
