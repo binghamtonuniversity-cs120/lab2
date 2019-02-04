@@ -21,13 +21,36 @@ _In this lab, you will learn to:_
 
 ## Part A: Printing Stars
 
-Write a program in C to make a 4 level pyramid with asterisks. Your output should look like:
+To write c code you use a text editor, just like any other programming language. Open a text file (you can create a new text file using gedit by opening gedit from the command line):
+```shell
+gedit lab2.c
+```
+
+A basic c program looks like:
+```c
+#include <stdio.h>
+int main{
+    printf("Hello World!");
+}
+```
+Go ahead an add the above code to your text file, then save it. Keep track of where the file was saved so you can navigate to it in the command line.
+
+For the above program, you should compile with `gcc` on the command line. As a reminder of the commands:
+```shell
+gcc lab2.c -o lab2
+```
+You can then run your program with:
+```shell
+./lab2
+```
+Now alter your program to make a 4 level pyramid with asterisks. Your output should look like:
 ```shell
    *
   * *
  * * *
 * * * *
 ```
+Once you have everything printing out properly, move on to Part B. 
 
 ## Part B: Printing values
 
