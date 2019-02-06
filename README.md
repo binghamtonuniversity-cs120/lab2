@@ -29,7 +29,7 @@ gedit lab2.c
 A basic c program looks like:
 ```c
 #include <stdio.h>
-int main{
+int main(){
     printf("Hello World!");
 }
 ```
